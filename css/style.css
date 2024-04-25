@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(204, 204, 5);
+}
+nav{
+    background-color: rgb(54, 54, 71);
+    color: wheat;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    display: inline;
+}
+li{
+    padding-left: 100px;
+    padding-right: 80px;
+    font-size: 23px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
