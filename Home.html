@@ -7,17 +7,100 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="attractions.html">Attractions</a></li>
-            <li><a href="sports.html">Sports</a></li>
-            <li><a href="transportation.html">Transportation</a></li>
-            <li><a href="food.html">Food</a></li>
-        </ul>
+    <!--NAVBAR SECTION-->
+    <nav class="navbar">
+        <div id="navbar_logo">
+                <img src="img/main_logo.png" width="200px">
+        </div> 
+        <div id="navbar_container";><!--spongebob container-->
+            
+            <ul class="navbar_menu"><!--Recipe list-->
+                <li class="navbar_item">
+                    <a href="Home.html" class="navbar_link">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="attractions.html" class="navbar_link">
+                        Attractions
+                    </a>
+                </li>
+                
+                <li class="navbar_item">
+                    <a href="transportation.html" class="navbar_link">
+                        Transportation
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="food.html" class="navbar_link">
+                        Food
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="sports.html" class="navbar_link">
+                        Sports
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
     </nav>
-    <div>
+    <!-- Top 2 Cards -->
+    <br><br><br><br><br><br>
+<div id="home-attraction-container">
+    <div id="home-attraction-card">
+        <img src="img/homeimage1.jfif" style="padding-left: 20px;opacity: 1;">
+    </div>
+    <div id="offer-card" style="opacity: 1;">
+        <h1 class="offer-header">
+            What Columbus has to offer!
+        </h1>
+        <h5 style="padding-left: 350px;">(hover)</h5>
+        <p>
+            Columbus is most well known for its modern architecture and public art. There are plenty of parks and nature sights throughout Columbus. Columbus is well known for it's coffee, distilleries, and pizza. 
+        </p>
 
     </div>
+    <div id="home-attraction-card" style="opacity: 1;">
+        <img src="img/homeimg2.jfif" style="padding-right: 20px;opacity: 1;">
+        
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="flight-container">
+    <h1 style="margin-right: 800px;">
+        Book
+    </h1>
+    <h1 style="margin-right: 400px;">
+        Your
+    </h1 >
+    <h1>
+        Flight
+    </h1>
+    <h1 style="margin-left: 500px;">
+        Today!
+    </h1>
+</div>
+    <button class="book">Book Now</button>
+<div id="nav-card-container">
+    <div id="nav-card">
+        <h1><a href="attractions.html">What to see</a></h1>
+        <p>Click here to find local attractions in Columbus!</p>
+    </div>
+    <div id="nav-card">
+        <h1><a href="transportation.html">Ways to get around</a></h1>
+        <p>Click here to find ways to get around Columbus!</p>
+    </div>
+    <div id="nav-card">
+        <h1><a href="food.html">If your hungry</a></h1>
+        <p>Click here to learn about Columbus's favorite restaurants and Food!</p>
+    </div>
+    <div id="nav-card">
+        <h1><a href="sports.html">Catch up on Sports</a></h1>
+        <p>Click here to get the latest news on sports in Columbus!</p>
+    </div>
+
+</div>
+
 </body>
 </html>

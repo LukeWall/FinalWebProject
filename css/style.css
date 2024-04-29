@@ -1,23 +1,208 @@
-body{
-    background-color: rgb(204, 204, 5);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
-nav{
-    background-color: rgb(54, 54, 71);
-    color: wheat;
-    padding: 20px;
+:root{
+    --clr-blue: rgb(0, 83, 155);
+    --clr-red: rgb(227, 27, 35);
+    --clr-red-bg: rgba(255, 0, 8, 0.596);
+}
+  
+nav
+{
+background-color:rgb(0, 0, 0);
+height: 80px;
+display: flex;
+flex-direction: row;
+font-size: 1.3rem;
+position: sticky;
+top: 0;
+z-index:999;
+padding-top: 8px;
+}
+#navbar_container
+{
     display: flex;
     flex-direction: row;
+    width:100%;
+    z-index:1;
+    justify-content: center;
 }
-nav ul li{
-    display: inline;
+.navbar_menu
+{
+    margin-left: 350px;
+    display: flex;
+    gap: 100px;
 }
-li{
-    padding-left: 100px;
-    padding-right: 80px;
-    font-size: 23px;
+.navbar_item
+{
+margin-top: 20px;
+}
+.navbar_link
+{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    height: 100%;
 }
-a{
+.navbar_link:hover
+{
+    scale: 1.5;
+    color: var(--clr-red);
+}
+#navbar_logo
+{   
+    background-size: 100%;   
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    margin-left: 50px;
+
+    align-items: center;
     text-decoration: none;
-    color: rgb(219, 219, 219);
+    font-size: 5px;
 }
+#home-attraction-card{
+    width: 350px;
+    height: 250px;
+    border-radius: 1.5%;
+}
+#home-attraction-card img{
+border-radius: 1.5%;
+width: 350px;
+height: 250px;
+text-align: center;
+}
+
+ #home-attraction-container{
+    display: flex;
+    gap: 150px;
+    background-color: var(--clr-red-bg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#flight-container{
+display: block;
+padding-bottom: 30px;
+height: 450px;
+margin-bottom: 30px;
+background-color: rgba(255, 255, 255, 0.5);
+padding-top: 30px;
+background-image: url("/img/sky.png");
+background-size: 1450px;
+background-repeat: no-repeat;
+
+}
+#flight-container h1{
+    text-align: center;
+    font-size: 90px;
+    padding-left: 60px; 
+
+}
+.book{
+margin-left: 635px;
+width: 250px;
+height: 100px;
+font-size: 40px;
+font-style: oblique;
+color: aliceblue;
+text-align: center;
+background-color: var(--clr-blue);
+}
+ #nav-card-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #nav-card{
+    width: 300px;
+    height: 260px;
+    background-color: var(--clr-red);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3.5%;
+    box-shadow: 5px 5px 5px black;
+ }
+ #nav-card a{
+    text-decoration: none;
+    color: black;
+ }
+ #nav-card p{
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+ }
+ #nav-card h1{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+ }
+ #offer-card{
+    padding-top: 35px;
+    background-color: var(--clr-blue);
+    width: 450px;
+    border-radius: 2%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+ #offer-card p{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 10px;
+ }
+ .hide
+ {
+    display: none;
+ }
+ #offer-card:hover{
+   height: 250px;
+ }
+ .offer-header{
+    text-align: center;
+ }
+ #rideshare-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ #rideshare-card{
+    padding-top: 20px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 400px;
+    height: 460px;
+    border-radius: 2.5%;
+    text-align: center;
+ }
+#rideshare-card img{
+    padding-top: 10px;
+}
+#download-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+   
+}
+#download{
+    display: flex;
+}
+#download h2{
+    padding-top: 25px;
+}
+.rideshare-header{
+    padding-top: 25px;
+    text-align: center;
+    display: block;
+   font-size: 50px;
+    background-color: var(--clr-red-bg);
+}
+ 
