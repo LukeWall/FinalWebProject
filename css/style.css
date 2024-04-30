@@ -166,14 +166,20 @@ background-color: var(--clr-blue);
  .offer-header{
     text-align: center;
  }
- #rideshare-container{
-    display: flex;
+ #transportation-container{
+    display: block;
     justify-content: space-evenly;
     background-color: var(--clr-red-bg);
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
  }
- #rideshare-card{
+ #transportation-container:hover{
+    margin-bottom: 300px;
+}
+ #transportation-card{
     padding-top: 20px;
     display: block;
     background-color: var(--clr-blue);
@@ -182,7 +188,7 @@ background-color: var(--clr-blue);
     border-radius: 2.5%;
     text-align: center;
  }
-#rideshare-card img{
+#transportation-card img{
     padding-top: 10px;
 }
 #download-container{
@@ -198,11 +204,67 @@ background-color: var(--clr-blue);
 #download h2{
     padding-top: 25px;
 }
-.rideshare-header{
-    padding-top: 25px;
+.transportation-header{
+    padding-bottom: 20px;
     text-align: center;
     display: block;
    font-size: 50px;
-    background-color: var(--clr-red-bg);
 }
- 
+#card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#transportation-card h3 + h4{
+margin-left: 150px;
+}
+#text-container 
+{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#text-container a{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 22px;
+    letter-spacing: -1.4px;
+    word-spacing: -3px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+.enterprise-card{
+    padding-top: 20px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 400px;
+    height: 460px;
+    border-radius: 2.5%;
+    text-align: center;
+    overflow: hidden;
+    height: 170px;
+}
+
+#enterprise-logo{
+    padding-top: 10px;
+}
+.rental-container{
+    display: block;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    overflow: hidden;
+ }
+.rental-container:hover .enterprise-card{
+    height: auto;
+ }
+ .rental-container:hover{
+    height: auto;
+ }
+
