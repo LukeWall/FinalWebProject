@@ -5,9 +5,10 @@
 
 }
 :root{
-    --clr-blue: rgb(0, 83, 155);
+    --clr-blue: rgb(10, 91, 161);
     --clr-red: rgb(227, 27, 35);
-    --clr-red-bg: rgba(255, 0, 8, 0.596);
+    --clr-red-bg: rgba(255, 0, 8, 0.685);
+    --clr-blue-bg: rgba(0, 134, 252, 0.76);
 }
   
 nav
@@ -166,6 +167,7 @@ background-color: var(--clr-blue);
  .offer-header{
     text-align: center;
  }
+ /* ride share section */
  #transportation-container{
     display: block;
     justify-content: space-evenly;
@@ -234,6 +236,7 @@ margin-left: 150px;
     font-variant: normal;
     text-transform: uppercase;
 }
+/* rental section */
 .enterprise-card{
     padding-top: 20px;
     display: block;
@@ -267,4 +270,124 @@ margin-left: 150px;
  .rental-container:hover{
     height: auto;
  }
+
+ /* bus routes section */
+ .bus-card{
+    padding-top: 20px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 400px;
+    height: 460px;
+    border-radius: 2.5%;
+    text-align: center;
+    overflow: hidden;
+    height: 170px;
+}
+
+.busroutes-container{
+    display: block;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    overflow: hidden;
+ }
+.busroutes-container:hover .bus-card{
+    height: auto;
+ }
+ .busroutes-container:hover{
+    height: auto;
+ }
+ #bus-download-container{
+    display: block;
+    padding-right: 20px;
+ }
+ #bus-download{
+    margin-left: -15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+   
+    width: max-content;
+    justify-content: space-between;
+ }
+ #bus-download h2{
+    padding-left: 15px;
+ }
+ #gobus-text-container 
+{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#whatToSee{
+    display: block;
+    width: 100%;
+    background-image: radial-gradient(var(--clr-blue-bg),var(--clr-red-bg));
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+#cbus-img2{
+
+    mask-repeat: repeat-x;
+}
+#zoo-container{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px; padding: 5px 5px 5px 5px;
+    border-bottom: none;
+}
+#zoo-container h1{
+    font-size: 100px;
+
+}
+#zoo-logo{
+    display: block;
+    justify-content: start;
+}
+#zoo-info{
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 30px;
+    display: block;
+    text-align: center;
+
+}
+#zoo-list{
+    display: block;
+}
+#image-container{
+display: flex;
+padding: 5px 5px 5px 5px;
+border-style: dashed;
+border-color: black;
+border-width: 5px;
+border-top: none;
+}
+#conservatory-info{
+    padding-bottom: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: block;
+    text-align: center;
+
+}
+#conservatory-info h1{
+    font-size: 80px;
+}
+#conservatory-info h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
 
