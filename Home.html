@@ -9,12 +9,11 @@
 <body>
     <!--NAVBAR SECTION-->
     <nav class="navbar">
-        <div id="navbar_logo">
+        <div class="navbar_logo">
                 <img src="img/main_logo.png" width="200px">
         </div> 
-        <div id="navbar_container";><!--spongebob container-->
-            
-            <ul class="navbar_menu"><!--Recipe list-->
+        <div class="navbar_container">
+            <ul class="navbar_menu">
                 <li class="navbar_item">
                     <a href="Home.html" class="navbar_link">
                         Home
@@ -36,20 +35,14 @@
                         Food
                     </a>
                 </li>
-                <li class="navbar_item">
-                    <a href="sports.html" class="navbar_link">
-                        Sports
-                    </a>
-                </li>
-            </ul>
-            
+                
+            </ul>     
         </div>
     </nav>
-    <!-- Top 2 Cards -->
 
 <div id="home-attraction-container">
-    <div id="home-attraction-card">
-        <img src="img/homeimage1.jfif" style="padding-left: 20px;opacity: 1;">
+    <div id="home-attraction-card" style="padding-left: 10px;">
+        <img src="img/homeimage1.jfif">
     </div>
     <div id="offer-card" style="opacity: 1;">
         <h1 class="offer-header">
@@ -61,52 +54,57 @@
         </p>
 
     </div>
-    <div id="home-attraction-card" style="opacity: 1;">
-        <img src="img/homeimg2.jfif" style="padding-right: 20px;opacity: 1;">
+    <div id="home-attraction-card">
+        <img src="img/homeimg2.jfif">
         
     </div>
 </div>
 <div id="cbus-img">
-<img src="img/660px-Columbus_Pano_2.jpg" alt="Downtown columbus" style="height: 400px;width: 679px;">
-<img src="img/cbus2.jpg" alt="Second image of downtown columbus" style="height: 400px;width: 740px;">
+<img src="img/660px-Columbus_Pano_2.jpg" alt="Downtown columbus" id="mobile-img">
+<img src="img/cbus2.jpg" alt="Second image of downtown columbus" id="mobile-img2">
 </div>
-<div id="cbus-img2">
-    
-    </div>
+
 <div id="flight-container">
     <h1 style="margin-right: 800px;">
         Book
     </h1>
-    <h1 style="margin-right: 400px;">
+    <h1 id="temp-your">
         Your
     </h1 >
     <h1>
         Flight
     </h1>
-    <h1 style="margin-left: 500px;">
+    <h1 id="temp-today">
         Today!
     </h1>
 </div>
     <button class="book">Book Now</button>
-<div id="nav-card-container">
-    <div id="nav-card">
-        <h1><a href="attractions.html">What to see</a></h1>
-        <p>Click here to find local attractions in Columbus!</p>
-    </div>
-    <div id="nav-card">
-        <h1><a href="transportation.html">Ways to get around</a></h1>
-        <p>Click here to find ways to get around Columbus!</p>
-    </div>
-    <div id="nav-card">
-        <h1><a href="food.html">If your hungry</a></h1>
-        <p>Click here to learn about Columbus's favorite restaurants and Food!</p>
-    </div>
-    <div id="nav-card">
-        <h1><a href="sports.html">Catch up on Sports</a></h1>
-        <p>Click here to get the latest news on sports in Columbus!</p>
-    </div>
+<br><br><br><br><br>
 
+
+<!--FOOTER-->
+<div class="footer_container">
+    <div class="footer_links"><!--links-->
+        <div class="footer_link_wrapper"><!--links wrapper-->
+            <div class="footer_link_items"><!--link group 2-->
+                <h2>Contact Us</h2>
+                <a href="#">Email</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer_link_items"><!--link group 4-->
+                <h2>Navigation</h2>
+                <a href="Home.html">Home</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="food.html">Food</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All rights reserved &copy;2024</p>
+    </div>
 </div>
-
 </body>
 </html>
