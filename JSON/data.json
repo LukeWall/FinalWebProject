@@ -1,0 +1,24 @@
+{
+    "events": [
+      {
+        "logo": "../img/italylogo.webp.PNG",
+        "menu": "../img/Littleitalymenu.PNG",
+        "map": "../img/italy-location.PNG"
+      },
+      {
+        "logo": "../img/jefflogo.jpg",
+        "menu": "../img/jeffmenu.PNG",
+        "map": "../img/jefflocation.PNG"
+      },
+      {
+        "logo": "../img/frankslogo.jpg",
+        "menu": "../img/franksmenu.PNG",
+        "map": "../img/frankslocation.PNG"
+      },
+      {
+        "logo": "../img/mandrake-logo.jpg",
+        "menu": "../img/mandrake-menu.PNG",
+        "map": "../img/mandrake-location.PNG"
+      }
+    ]
+  }

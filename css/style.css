@@ -69,9 +69,10 @@ margin-top: 20px;
     height: 250px;
     border-radius: 1.5%;
 }
+
 #home-attraction-card img{
 border-radius: 1.5%;
-width: 380px;
+width: 360px;
 height: 250px;
 text-align: center;
 }
@@ -202,6 +203,11 @@ background-color: var(--clr-blue);
     padding-left: 30px;
    
 }
+#rental-logo{
+    width: 290px;
+    height: 120px;
+    padding-top: 10px;
+}
 #download{
     display: flex;
 }
@@ -209,7 +215,7 @@ background-color: var(--clr-blue);
     padding-top: 25px;
 }
 .transportation-header{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
     display: block;
    font-size: 50px;
@@ -252,7 +258,8 @@ margin-left: 150px;
 }
 
 #enterprise-logo{
-    padding-top: 10px;
+  
+    width: 300px; height: 120px;padding-top: 0px;
 }
 .rental-container{
     display: block;
@@ -286,6 +293,9 @@ margin-left: 150px;
     height: 170px;
 }
 
+#img3{
+    width: 481px;
+}
 .busroutes-container{
     display: block;
     justify-content: space-evenly;
@@ -299,10 +309,10 @@ margin-left: 150px;
     overflow: hidden;
  }
 .busroutes-container:hover .bus-card{
-    height: auto;
+    height: 100%;
  }
  .busroutes-container:hover{
-    height: auto;
+    height: 100%;
  }
  #bus-download-container{
     display: block;
@@ -324,20 +334,31 @@ margin-left: 150px;
  }
  #gobus-text-container 
 {
-    margin-right: 25px;
-    margin-left: 25px;
-}
-#explore{
-    display: block;
-    width: 100%;
-    background-image: radial-gradient(var(--clr-blue-bg),var(--clr-red-bg));
-    padding-top:100px;
-    padding-bottom: 100px;
+    margin-left: 30px;margin-right: 50px;
 }
 
 #cbus-img2{
 
     mask-repeat: repeat-x;
+}
+#whatToSee{
+    display: block;
+    width: 100%;
+    background-image: radial-gradient(var(--clr-blue-bg),var(--clr-red-bg));
+    padding-top:50px;
+    padding-bottom: 100px;
+    font-size: 60px;
+    font-style: italic;
+}
+#image-1
+{
+    width: 460px
+}
+#image-2{
+    width: 480px;
+}
+#image-3{
+    width: 480px;
 }
 .zoo-container{
     display: flex;
@@ -350,22 +371,56 @@ margin-left: 150px;
     padding: 5px 5px 5px 5px;
     border-bottom: none;
     background-color: antiquewhite;
+    
+}
+
+.bay-container{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px; 
+    padding: 5px 5px 5px 5px;
+    border-bottom: none;
+    background-color: antiquewhite;
+    
+}
+.bay-info{
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+.bay-container h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: -15px;
+}
+.bay-container h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 .zoo-container h1{
     font-size: 100px;
-
+    text-align: center;
+    margin-top: -15px;
 }
 .zoo-logo{
     display: block;
     justify-content: start;
 }
 .zoo-info{
-    padding-bottom: 40px;
+    margin-bottom: 30px;
     margin-left: 40px;
     margin-right: 30px;
     display: block;
     text-align: center;
-
+    font-size: 1.2rem;
 }
 .zoo-list{
     display: block;
@@ -380,29 +435,49 @@ border-top: none;
 background-color: antiquewhite;
 
 }
+#lego-logo{
+    width: 400px;height: 300px;
+}
+.conservatory-logo{
+    width: 350px;
+}
 .conservatory-info{
     padding-bottom: 80px;
     margin-left: 2px;
     margin-right: 2px;
     display: block;
     text-align: center;
-
+    font-size:1.5rem;
 }
 .conservatory-info h1{
     font-size: 80px;
+    margin-top: 10px;
 }
 .conservatory-info h2{
     margin-left: 100px;
     margin-right: 100px;
-    
+    margin-bottom: 5px;
 }
 .restaurant-container{
     display: block;
     background-color: whitesmoke;
 }
 .restaurant-container a img{
-    width: 500px;
-    height: 500px;
+    
+    width: 380px;
+    height: 370px;
+}
+#location-image{
+    height: 350px;
+    margin-bottom: 40px;margin-left: 35px;
+}
+.restaurant-logo h3{
+    margin-left: 21px;
+    margin-right: 150px;
+}
+.restaurant-logo h1{
+    text-align: center;
+    margin-right: 140px;
 }
 .restaurant{
     display: flex;
@@ -412,6 +487,25 @@ background-color: antiquewhite;
     
     margin-bottom: 200px;
 }
+.restaurant-link a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 35px;
+   
+    text-align: center;
+}
+.restaurant-link{
+    color: #000000;
+    text-decoration: none;
+    font-size: 35px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+.restaurant-link:hover{
+    font-size: 40px;
+    color: var(--clr-blue);
+}
+
 #food-head{
     font-size: 100px;
     text-align: center;
@@ -433,13 +527,16 @@ padding-left: 100px;
 }
 .restaurant-card img{
     width: 300px;
-    height: 390px;
+    height: 350px;
 }
-.restaurant-card button{
+.restaurant-card a{
     width: 200px;
     height: 50px;
 }
-
+.restaurant-logo img{
+    width: 50px;
+    height: 50px;
+}
 /*Footer*/
 .footer_container
 {
@@ -494,13 +591,53 @@ box-sizing: border-box;
     height: 400px;width: 700px;
 }
 #mobile-img2{
-    height: 400px;width: 735px;
+    height: 400px;width: 715px;
 }
 #temp-your{
     margin-right: 400px;
 }
 #temp-today{
     margin-left: 550px;
+}
+#span1{
+    padding-left: 40px;
+}
+#span2{
+    padding-left: 650px;
+}
+#span3{
+    padding-left: 1100px;
+}
+#img2{
+    width: 400px;
+}
+.container{
+    display: block;
+}
+#imgbay{
+    margin-left: 5px;
+    width: 33%;
+}
+#img3{
+    width: 33%;
+}
+#img4{
+    width: 33%;
+}
+#transit-logo{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#gobus-logo{
+    height: 100%;
+    width: 50%;
+}
+#barons-logo{
+    width: 105%;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 /*Homepage mobile*/
 @media screen and (max-width:750px){
@@ -609,9 +746,9 @@ box-sizing: border-box;
             margin-right: 300px;
         }
         #temp-today{
-            margin-left: 400px;
+            margin-left: 300px;
         }
-        .navbar
+.navbar
 {
 background-color:rgb(0, 0, 0);
 height: 80px;
@@ -629,19 +766,20 @@ padding-top: 8px;
     flex-direction: row;
     width:100%;
     z-index:1;
-    justify-content: center;
+    
 }
 .navbar_menu
 {
     padding-bottom: 15px;
-    margin-left: 50px;
+    margin-left: 0px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 .navbar_item
 {
 margin-top: 20px;
-}
+font-size: 17px;
+} 
 .navbar_link
 {
     color: rgb(255, 255, 255);
@@ -659,14 +797,448 @@ margin-top: 20px;
 {   
     background-size: 100%;   
     -webkit-text-fill-color: rgb(255, 255, 255);
-    margin-left: 50px;
-
     align-items: center;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 1px;
+    margin-left: 5px;
+    
 }
+.navbar_logo img{
+    width: 150px;
+    height: 60px;
+    
+}
+#whatToSee{
+    display: block;
+    width: 100%;
+    background-image: radial-gradient(var(--clr-blue-bg),var(--clr-red-bg));
+    padding-top:60px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 50px;
 }
 
+.zoo-container{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px; 
+    padding: 5px 5px 5px 5px;
+    border-bottom: none;
+    background-color: antiquewhite;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.zoo-container h1{
+    font-size: 60px;
+}
+.zoo-logo{
+    display: block;
+    
+}
+.zoo-logo img{
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+}
+.zoo-info{
+    
+    display: block;
+   margin-left: -50px;
+   margin-right: 0px;
+    width: max-content;
+    font-size: 14px;
+    
+}
+.conservatory-logo img{
+    width: 170px;
+    height: 170px;
+}
+.zoo-info h2{
+    font-size: 20px;
+}
+.zoo-info h1{
+    font-size: 50px;
+}
+.bay-info{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+   margin-left: -100px;
+   margin-right: -200px;
+    width: max-content;
+    font-size: small;
+    text-align: center;
+    
+}
+.bay-info h1{
+    font-size: 50px;
+}
+.bay-info h2{
+ font-size: 20px;
+}
+.zoo-list{
+    display: block;
+}
+#imgbay{
+    width: 240px;
+}
+#img4{
+    width: 230px;
+}
+.image-container{
+    
+display: flex;
+padding: 5px 5px 5px 5px;
+border-style: dashed;
+border-color: black;
+border-width: 5px;
+border-top: none;
+background-color: antiquewhite;
+
+}
+#image-1
+{
+    margin-left: 3px;
+    width: 33%;
+}
+#image-2{
+    width: 33%;
+}
+#image-3{
+    width: 33%;;
+}
+#img2{
+    width: 150px;
+}
+#img3{
+    width: 260px;
+}
+.image-container img{
+    width: 40%;
+}
+
+.bay-logo{
+    width: 300px;
+    height: 300px;
+}
+.conservatory-info{
+    padding-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.conservatory-info h1{
+    font-size: 35px;
+    margin-left: -25px;
+   margin-right: -25px;
+}
+.conservatory-info h2{
+   
+   margin-left: 25px;
+   margin-right: 25px;
+    font-size: 20px;
+}
+#span1{
+    padding-left: 40px;
+    
+}
+#span2{
+    padding-left: 280px;
+}
+#span3{
+    padding-left: 440px;
+}
+ /* ride share section */
+ #transportation-container{
+    display: block;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ #transportation-container:hover{
+    margin-bottom: 300px;
+}
+ #transportation-card{
+    padding-top: 20px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 45%;
+    height: 50%;
+    border-radius: 2.5%;
+    text-align: center;
+ }
+#transportation-card img{
+    padding-top: 10px;
+    width:70%;
+}
+#download-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+   padding-bottom: 10px;
+}
+#download{
+    display: flex;
+}
+#download h2{
+    padding-top: 25px;
+    font-size: 17px;
+}
+.transportation-header{
+    padding-bottom: 20px;
+    text-align: center;
+    display: block;
+   font-size: 50px;
+}
+#card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#text-container 
+{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#text-container a{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 22px;
+    letter-spacing: -1.4px;
+    word-spacing: -3px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+/* rental section */
+.enterprise-card{
+    padding-top: 20px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 32%;
+    height: 120px;
+    border-radius: 2.5%;
+    text-align: center;
+    overflow: hidden;
+    ;
+}
+
+#rental-logo{
+    width: 180px;
+    height: 80px;
+    padding-top: 10px;
+}
+.rental-container{
+    display: block;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    overflow: hidden;
+ }
+.rental-container:hover .enterprise-card{
+    height: 100%;
+ }
+ .rental-container:hover{
+    height: 100%;
+ }
+
+ /* bus routes section */
+ .bus-card{
+    padding-top: 10px;
+    display: block;
+    background-color: var(--clr-blue);
+    width: 32%;
+    height:100px;
+    border-radius: 2.5%;
+    text-align: center;
+    overflow: hidden;   
+    padding: 5px 5px 5px 5px;
+ }
+#img3{
+    width: 40%;
+}
+.busroutes-container{
+    display: block;
+    justify-content: space-evenly;
+    background-color: var(--clr-red-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 400px;
+    overflow: hidden;
+ }
+.busroutes-container:hover .bus-card{
+    height: max-content;
+ }
+ .busroutes-container:hover{
+    height: max-content;
+ }
+ #bus-download-container{
+    display: block;
+    padding-right: 20px;
+ }
+ #bus-download{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+   
+    width: 60%;
+    justify-content: space-between;
+ }
+ #bus-download h2{
+    font-size: 90%;
+ }
+ #gobus-text-container 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#enterprise-logo{
+    width: 100px;
+    height: 100px;
+ 
+}
+#gobus-logo{
+    height: 85px;
+    width: 100px;
+}
+#transit-logo{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#barons-logo{
+    width: 105%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.restaurant-container{
+    display: block;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#location-image{
+    height: 110%;
+    width: 90%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#restaurant-logo{
+    width: 250px;
+    height: 130%;
+    padding-right: 30px;
+    margin-right: 0px;
+}
+.restaurant-logo h1{
+    text-align: center;
+   
+    font-size: 40%;
+}
+.mobile-restaurant-logo h3{
+    
+    font-size: 40%;
+}
+.mobile-restaurant-logo h1{
+    text-align: center;
+   
+    font-size: 100%;
+}
+.restaurant{
+    display: flex;
+    border-color: black;
+    border-style: dashed;
+    border-width: 5px; padding: 5px 5px 5px 5px;
+    padding-bottom: 70px;
+    margin-bottom: 200px;
+    margin-right:0px;
+    padding-right: 20px;
+}
+.restaurant-link a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 100%;
+   
+    text-align: center;
+}
+.restaurant-link{
+    color: #000000;
+    text-decoration: none;
+    font-size: 100%;
+    text-wrap: nowrap;
+    text-align: center;
+}
+.restaurant-link:hover{
+    font-size: 15px;
+    color: var(--clr-blue);
+}
+
+#food-head{
+    font-size: 50%;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#temp-header-container
+{
+    background-color: var(--clr-blue-bg);/* Temporary */
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.restaurant-card{
+display: block;
+text-align: center;
+padding-left: 30px;
+padding-bottom: 20px;
+}
+
+.restaurant-card img{
+    width: 80%;
+    height: 80%;
+}
+.restaurant-card h1{
+    
+    font-size: 110%;
+}
+.restaurant-card a{
+    width: 100%;
+    height: 100%;
+}
+#mobile-restaurant-logo img{
+    width: 330%;
+    height: 100%;
+}
+}
 
 
 
